@@ -381,9 +381,9 @@ body {
     width: 400px;
 }
 @media (max-width: 575px) {
-    .about-us .images-box img {
-       width:100%;
-    }
+ .about-us .images-box img {
+    width: 100%;
+ }
 }
 /* End About Us */
 /* Start Our Skills */
