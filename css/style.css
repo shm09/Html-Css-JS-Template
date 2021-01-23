@@ -507,6 +507,21 @@ body {
     font-family: cursive;
     cursor: pointer;
 }
+@media (max-width: 575px) {
+    .gallary .images-box img {
+        width: 46%;
+        padding: 5px;
+        background-color: var(--main--color);
+        border: 1px solid #ccc;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    .popup-box img {
+        max-width: 330px;
+        border-radius: 22px;
+    }
+}
 /* End Gallary */
 /* Start TimeLine */
 .timeline {
