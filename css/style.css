@@ -801,6 +801,7 @@ body {
     background-color: #fff;
     padding: 20px;
     font-size: 22px;
+    border-radius: 14px;
 }
 .testimonials .ts-box:not(:last-of-type) {
     margin-right:1%;
