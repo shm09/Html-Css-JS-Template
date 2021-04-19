@@ -301,6 +301,11 @@ body {
     font-size: 34px;
     margin: 0 0 12px;
 }
+@media (max-width: 375px) {
+    .introduction-text h1 {
+        font-size: 16px;
+    }
+}
 @media (max-width: 575px) {
     .introduction-text h1 {
         font-size: 26px;
@@ -379,6 +384,11 @@ body {
 }
 .about-us .images-box img {
     width: 400px;
+}
+@media (max-width: 575px) {
+    .about-us .images-box img {
+        width: 100%;
+    }
 }
 /* End About Us */
 /* Start Our Skills */
@@ -506,6 +516,21 @@ body {
     border-radius: 9px;
     font-family: cursive;
     cursor: pointer;
+}
+@media (max-width: 575px) {
+    .gallary .images-box img {
+        width: 46%;
+        padding: 5px;
+        background-color: var(--main--color);
+        border: 1px solid #ccc;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    .popup-box img {
+        max-width: 330px;
+        border-radius: 22px;
+    }
 }
 /* End Gallary */
 /* Start TimeLine */
@@ -932,7 +957,6 @@ body {
 
 /* Start Contact Us */
 .contact {
-    min-height: 600px;
     background-image: url(../photo/17.jpg);
     background-size:cover;
     position:relative;
@@ -995,6 +1019,10 @@ body {
 .contact form input:not([type = submit]):focus::-webkit-input-placeholder {
     opacity:0;
     transition: .3s;
+}
+.contact form textarea:focus::-moz-placeholder,
+.contact form input:not([type=submit]):focus::-moz-placeholder {
+    opacity: 0;
 }
 .contact form input[type = submit] {
     width: 130px;
@@ -1099,6 +1127,11 @@ body {
 /* End footer */
 
 /* Start Grid System */
+@media (min-width: 376px) {
+    .container {
+        max-width: 340px
+    }
+}
 @media (min-width: 576px) { /*Small Devices => landing phone */
     .container {
         max-width:540px;
