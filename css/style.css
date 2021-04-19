@@ -386,9 +386,15 @@ body {
     width: 400px;
 }
 @media (max-width: 575px) {
+<<<<<<< HEAD
     .about-us .images-box img {
         width: 100%;
     }
+=======
+ .about-us .images-box img {
+    width: 100%;
+ }
+>>>>>>> 82c9440584e62a9d50f8760a1173e57b8d5cc95a
 }
 /* End About Us */
 /* Start Our Skills */
@@ -806,6 +812,7 @@ body {
     background-color: #fff;
     padding: 20px;
     font-size: 22px;
+    border-radius: 14px;
 }
 .testimonials .ts-box:not(:last-of-type) {
     margin-right:1%;
@@ -845,6 +852,7 @@ body {
         background-color: #fff;
         padding: 20px;
         font-size: 22px;
+        border-radius: 14px;
     }
     .testimonials .ts-box .person-info {
         overflow: visible;
@@ -885,6 +893,7 @@ body {
         background-color: #fff;
         padding: 20px;
         font-size: 22px;
+        border-radius: 14px;
     }
     .testimonials .ts-box .person-info {
         overflow: visible;
@@ -924,6 +933,7 @@ body {
         background-color: #fff;
         padding: 20px;
         font-size: 22px;
+        border-radius: 14px;
     }
     .testimonials .ts-box .person-info {
         overflow: visible;
