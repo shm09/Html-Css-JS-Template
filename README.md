@@ -1,2 +1,3 @@
-# Templete_2_Training
-## Create Project
+# Html-Css-JS-Template
+#### My New Project 
+## Responsive WebSite
